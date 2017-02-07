@@ -3,7 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoAtlasPacker", "AutoAtlasPacker\AutoAtlasPacker.vcxproj", "{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutoAtlasPackerInstaller", "AutoAtlasPackerInstaller\AutoAtlasPackerInstaller.vdproj", "{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Debug|x64.ActiveCfg = Debug|x64
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Debug|x64.Build.0 = Debug|x64
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Debug|x86.Build.0 = Debug|Win32
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Release|x64.ActiveCfg = Release|x64
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Release|x64.Build.0 = Release|x64
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Release|x86.ActiveCfg = Release|Win32
+		{8B4A6B0E-F58D-4858-8B0C-BC86C02E3288}.Release|x86.Build.0 = Release|Win32
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Debug|x64.ActiveCfg = Debug
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Debug|x64.Build.0 = Debug
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Debug|x86.ActiveCfg = Debug
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Debug|x86.Build.0 = Debug
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Release|x64.ActiveCfg = Release
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Release|x64.Build.0 = Release
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Release|x86.ActiveCfg = Release
+		{A95CCB8F-8F9A-47AE-BB01-EC89E867CC7B}.Release|x86.Build.0 = Release
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
